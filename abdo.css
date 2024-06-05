@@ -15,19 +15,19 @@ body{
     position: relative;
     height: 0;
     width: 0;
-    border-top:  100px solid transparent;
-    border-bottom:  100px solid #FF69B4;
-    border-right: 200px solid #FF69B4;
-    border-left: 200px solid #FFD1DC;
+    border-top:  80px solid transparent;
+    border-bottom:  80px solid #FF69B4;
+    border-right: 150px solid #FF69B4;
+    border-left: 150px solid #FFD1DC;
     z-index: 4;
 }
 .msg{
     text-align: center;
     position: absolute;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
-    height: 150px;
-    width: 350px;
+    height: 120px;
+    width: 280px;
     background-color: #E68FAC;
     color : #ff2b4e;
     z-index: -1;
@@ -37,18 +37,18 @@ body{
     position: absolute;
     height: 0;
     width: 0;
-    border-bottom: 100px  solid transparent;
-    border-right: 200px  solid transparent;
-    border-left: 200px  solid transparent;
+    border-bottom: 80px  solid transparent;
+    border-right: 150px  solid transparent;
+    border-left: 150px  solid transparent;
     transform-origin: top;
 }
 .lid.one{
-    border-top: 100px solid #F9429E;
+    border-top: 80px solid #F9429E;
     transform: rotateX(0deg);
     transition-duration: .3s;
 }
 .lid.two{
-    border-top: 100px solid #f73093;
+    border-top: 80px solid #f73093;
     transform: rotateX(90deg);
 }
 .container:active .lid.one{
